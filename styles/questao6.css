@@ -1,0 +1,54 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div {
+    position: relative;
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+    transition: 1s;
+    animation: girando 4s ease infinite;
+}
+
+@keyframes girando {
+   0% {
+    background-color: blue;
+   }
+   12.5% {
+    transform: rotate(45deg);
+    background-color: pink;
+   }
+   25% {
+    transform: rotate(90deg);
+    background-color: red;
+   }
+   37.5%{
+    transform: rotate(135deg);
+    background-color: violet;
+   }
+   50% {
+    transform: rotate(180deg);
+    background-color: aquamarine;
+   }
+
+   62.5%{
+    transform: rotate(225deg);
+    background-color: brown;
+   }
+   75%{
+    transform: rotate(270deg);
+    background-color: black;
+   }
+   87.5%{
+    transform: rotate(315deg);
+    background-color: aqua;
+   }
+   100%{
+    transform: rotate(360deg);
+    background-color: bisque;
+   }
+}

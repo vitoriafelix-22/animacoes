@@ -1,0 +1,13 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div {
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+   
+}

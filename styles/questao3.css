@@ -1,0 +1,21 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div {
+    background-color: blue;
+    width: 400px;
+    height: 400px;
+    transition: 1s;
+    border-radius: 200px;
+   
+}
+
+div:hover{
+    background-color: pink;
+    transform: scale(1.2);
+
+}

@@ -1,0 +1,26 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div {
+    position: relative;
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+    transition: 1s;
+    border-radius: 100px;
+    animation: movendo 4s ease;
+}
+
+@keyframes movendo {
+    from {
+        right: 0;
+    }
+    to {
+        right: -500px;
+    }
+}
+
