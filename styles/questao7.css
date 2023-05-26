@@ -1,0 +1,40 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div {
+    position: relative;
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+
+    animation: surgindo 4s linear infinite;
+}
+
+@keyframes surgindo {
+   0% {
+    width: 0;
+    height: 0;
+   }
+
+   15% {
+    background-color: violet;
+   }
+
+   30% {
+    background-color: green;
+   }
+
+   60% {
+    background-color: pink;
+   }
+
+   100% {
+    background-color: gray;
+    width: 200px;
+    height: 200px;
+   }
+}
