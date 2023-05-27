@@ -1,0 +1,32 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div {
+    position: relative;
+    background-color: pink;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    animation: quicar 3s linear infinite 6s;
+}
+
+div:hover{
+    animation: alteraForma 2s linear forwards;
+}
+
+@keyframes alteraForma {
+    from {
+        width: 200px;
+        height: 200px;
+        border-radius: 100px;
+    }
+    to {
+        width: 200px;
+        height: 100px;
+        border-radius: 0px;
+    }
+}

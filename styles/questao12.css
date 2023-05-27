@@ -1,0 +1,24 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.formulario {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: surgir 2s linear forwards;
+}
+
+@keyframes surgir {
+    0% {
+        bottom: 1000px;
+    }
+
+    100% {
+        bottom: 0;
+    }
+}

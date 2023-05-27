@@ -1,0 +1,29 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div {
+    background-color: pink;
+    width: 200px;
+    height: 200px;
+    animation: pulsar 2s linear infinite;
+   
+}
+
+@keyframes pulsar {
+    0% {
+        transform: rotate(0deg) scale(1.0);
+
+        }
+     
+        50% {
+         transform: rotate(180deg) scale(2.0);
+        }
+     
+        100% {
+         transform: rotate(360deg) scale(1.0);
+        }
+}
